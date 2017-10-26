@@ -36,7 +36,7 @@ test('should set text filter', () => {
     text
   }
   const state = filtersReducer(undefined, action);
-  expect(state.text).toBe('rent');
+  expect(state.text).toBe(text);
 });
 
 test('should set startDate filter', () => {
